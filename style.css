@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding:20px;
+  background-color: cadetblue;
+
+}
+
+.pro-pic{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* margin: 0 auto; */
+  display: block;
+  margin-bottom: 20px;
+  border: #fff solid 2px;
+  float: left;
+  
+}
+.header-bio{
+  float: left;
+  padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+}
+.header-content{
+  float: right;
+  padding: 20px;
+}
+.header-content a{
+  text-decoration: none;
+  color: black;
+}
+.header-content:hover a{
+  color: crimson;
+  text-decoration: underline;
+}
+.clear-div{
+  clear: both;
+}
+hr{
+  border: solid black 2px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+}
+
+.left-div{
+  font-weight: bold;
+  float: left;
+  width: 30%;
+}
+.right-div p{
+  /* margin-left: 20px; */
+  color: black;
+  text-align: start;
+}
+.right-div{
+  float: left;
+  width: 70%;
+}
+section{
+  margin-top: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.cm-hr{
+  border: solid black 1px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  margin: 20px auto;
+}
+.edu-left{
+  width: 45%;
+  float: left;
+}
+.edu-right{
+  width: 45%;
+  float: right;
+}
+.footer-elements{
+  background-color: #000;
+  text-align: center;
+ padding: 10px; 
+}
+.footer-elements a{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
